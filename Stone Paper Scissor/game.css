@@ -1,0 +1,80 @@
+#frame
+{
+  width:750px;
+  height:500px;
+  background-color:rgb(204, 92, 204);
+  border:4px ridge rgb(172, 42, 172);
+  text-align:center;
+  margin:auto;
+}
+h2,h3
+{
+  color:white;
+}
+#player
+{
+  display:grid;
+}
+#computer
+{ 
+  grid-column-start:2;
+  grid-column-end:3;
+}
+#user
+{
+  grid-column-start:4;
+  grid-column-end:5; 
+}
+#compscore
+{
+  grid-column-start:2;
+  grid-column-end:3;
+}
+#userscore
+{
+  grid-column-start:4;
+  grid-column-end: 5;
+}
+#compimg
+{
+  grid-column-start:1;
+  grid-column-end:2;
+}
+#userimg
+{
+  grid-column-start:5;
+  grid-column-end: 6;
+}
+#result
+{
+  text-align:center;
+}
+#stone,#paper,#scissor
+{
+  color:white;
+  font-size:20px;
+  height:40px;
+  width:90px;
+  cursor:pointer;
+}
+#stone
+{
+  background-color:rgb(196, 61, 61);
+  border:3px outset rgb(174, 52, 52);
+  grid-column-start:2;
+  grid-column-end: 3;
+}
+#paper
+{
+  background-color: rgb(232, 232, 87);
+  border:3px outset rgb(198, 198, 81);
+  grid-column-start:3;
+  grid-column-end: 4;
+}
+#scissor
+{
+  background-color:rgb(48, 170, 211);
+  border:3px outset rgb(76, 174, 206);
+  grid-column-start:4;
+  grid-column-end: 5;
+}
